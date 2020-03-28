@@ -13,8 +13,7 @@ body {
     /*РАМКА ВСЕЙ СТРАНИЦЫ*/
     box-sizing: border-box;
     /*ЗАСТАВЛЯЕТ ОТСТУПЫ НЕ ВЛИЯТЬ НА РАЗМЕРЫ БЛОКА*/
-    font-family: Arial;
-    background-color: aqua;
+    font-family: Arial;   
 }
 /*=========== HEADER===========*/
 .main-header {
