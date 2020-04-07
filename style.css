@@ -139,24 +139,32 @@ figcaption p {
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
+}    
+
+.dignity-list-left {
+
+    width: 580px;
+    height: auto;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    padding: 5px;
 }
-/*.dignity-list-left {
+
+.dignity-list-rigth {
 
     width: 580px;
     height: auto;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     box-sizing: border-box;
     padding: 5px;
 
-}*/
-/*.dignity-list-rigth {
-
-    width: 580px;
-    height: auto;
-    border: 1px solid black;
-    box-sizing: border-box;
-    padding: 5px;
-}*/
+    
+}
+.dignity-list-left li,
+.dignity-list-rigth li
+{
+        margin: 0 0 15px 0;
+    }
 /*********** ЧЕТВЕРТЫЙ БЛОК Screenshots ************/
 .Screenshots {
     margin: o auto;
