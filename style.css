@@ -163,8 +163,7 @@ figcaption p {
 .dignity-list-left li,
 .dignity-list-rigth li
 {
-        margin: 0 0 15px 0;
-        /*list-style-type: none;*/
+        margin: 0 0 15px 0;       
     }
 /*********** ЧЕТВЕРТЫЙ БЛОК Screenshots ************/
 .Screenshots {
