@@ -460,8 +460,10 @@ ol {
     background-color: #445162;
     box-sizing: border-box;
 }
-.form h1 {
+.Contacts {
+    width: 100%;
     margin     : 0 0 35px 0;
+    display: block;
     text-align : center;
     font-size  : 30px;
     line-height: 36px;
@@ -484,8 +486,10 @@ form {
     width           : 100%;
     margin          : 0 auto;
     padding         : 50px;   
-   
     box-sizing      : border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 input {
@@ -495,7 +499,8 @@ input {
     display      : block;
     border-radius: 6px;
     padding      : 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-right: 60px;
     outline      : none;
     box-sizing   : border-box;
 }
@@ -521,9 +526,15 @@ textarea {
 textarea:focus {
     background-color: rgb(56, 190, 173);
 }
+input[type="submit"] {font-size: 16px;
+line-height: 24px;
+font-weight: 700;
+text-transform: uppercase;
+color: #445162;
+}
 
 input[type="submit"] {
-    margin          : 0 auto;
+    margin          : 10px auto 50px auto;
     width           : 140px;
     height          : 40px;
     display         : block;
@@ -532,17 +543,34 @@ input[type="submit"] {
     text-transform  : uppercase; 
     outline      : none;  
 }
-.btn_sbm:active {
-    background-color: white;
-    color           : black;
-    outline      : none;
-}
-.btn_sbm:focus {
-    background-color: white;
-    color           : black;
-    outline      : none;
+input[type="submit"]:active {
+    background-color: rgb(15, 60, 143);     
 }
 
+input[type="submit"]:hover {
+    background-color:  rgb(56, 190, 173);      
+}
+.references_services a {
+    margin-bottom: 30px;
+}
+
+A {
+    color          : #ffffff;
+    /* Цвет ссылок */
+    text-decoration: none;
+}
+
+A:visited {
+    color          : #cecece;
+    /* Цвет посещенных ссылок */
+    text-decoration: none;
+}
+
+A:active {
+    color          : #ffff00;
+    /* Цвет активных ссылок */
+    text-decoration: none;
+}
 /*.spisok {
     display: block;
     margin : 10px 0 10px 10px;
