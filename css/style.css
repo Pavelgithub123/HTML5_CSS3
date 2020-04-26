@@ -9,7 +9,6 @@ body {
   width: 1280px;
   min-height: 2863px;
   margin: 0 auto;
-  border: 1px solid red;
   box-sizing: border-box;
   font-family: Arial;
 }
@@ -185,7 +184,6 @@ figcaption span {
   width: 1280px;
   min-height: 425px;
   background-color: #f5f5f5;
-  border: 1px solid red;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -327,7 +325,7 @@ ol {
   outline: none;
 }
 .buy-btn:hover {
-  background-color: black;
+  background-color: #38bead;
   color: white;
 }
 .buy-btn:active {
@@ -440,6 +438,16 @@ input[type="submit"]:hover {
   line-height: 24px;
   font-weight: 400;
   color: #ffffff;
+}
+.scr_span A {
+  color: #ffffff;
+  text-decoration: none;
+}
+.scr_span A:hover {
+  color: yellow;
+}
+.scr_span A:active {
+  color: #1cd12b;
 }
 .scr_social {
   margin-top: 15px;
