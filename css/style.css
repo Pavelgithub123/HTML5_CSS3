@@ -9,7 +9,7 @@ body {
 
 .container {
     width      : 1280px;
-    min-height: 2863px;
+    min-height : 2863px;
     margin     : 0 auto;
     /* ЦЕНТРОВКА*/
     border     : 1px solid red;
@@ -227,7 +227,7 @@ figcaption p {
     margin-left: 20px;
 }
 
-figure {
+.scr_photo_size {
     /*margin: 10px 0 10px 0;*/
     width          : 575px;
     height         : 180px;
@@ -245,7 +245,7 @@ figure {
     box-sizing      : border-box;
 }
 
-figcaption {
+.Screenshots_action {
     margin        : 0 0 0 10px;
     display       : inline-block;
     width         : 359px;
@@ -454,16 +454,17 @@ ol {
 
 /* НАЧАЛО ФУТЕРА С ФОРМОЙ*/
 .form {
-    margin    : 0 auto;    
-    width     : 100%;
-    height    : 509px;
+    margin          : 0 auto;
+    width           : 100%;
+    height          : 509px;
     background-color: #445162;
-    box-sizing: border-box;
+    box-sizing      : border-box;
 }
+
 .Contacts {
-    width: 100%;
+    width      : 100%;
     margin     : 0 0 35px 0;
-    display: block;
+    display    : block;
     text-align : center;
     font-size  : 30px;
     line-height: 36px;
@@ -476,19 +477,19 @@ input,
 textarea {
     font-family: Arial;
     font-size  : 16px;
-    line-height : 24px;
+    line-height: 24px;
     font-weight: 400;
     color      : #445162;
     font-style : normal;
 }
 
 form {
-    width           : 100%;
-    margin          : 0 auto;
-    padding         : 50px;   
-    box-sizing      : border-box;
-    display: flex;
-    flex-wrap: wrap;
+    width          : 100%;
+    margin         : 0 auto;
+    padding        : 50px;
+    box-sizing     : border-box;
+    display        : flex;
+    flex-wrap      : wrap;
     justify-content: center;
 }
 
@@ -500,16 +501,17 @@ input {
     border-radius: 6px;
     padding      : 5px;
     margin-bottom: 15px;
-    margin-right: 60px;
+    margin-right : 60px;
     outline      : none;
     box-sizing   : border-box;
 }
+
 input:focus {
     background-color: rgb(56, 190, 173);
 }
 
 fieldset {
-    width: 530px;    
+    width : 530px;
     border: none;
 }
 
@@ -523,14 +525,17 @@ textarea {
     resize       : none;
     outline      : none;
 }
+
 textarea:focus {
     background-color: rgb(56, 190, 173);
 }
-input[type="submit"] {font-size: 16px;
-line-height: 24px;
-font-weight: 700;
-text-transform: uppercase;
-color: #445162;
+
+input[type="submit"] {
+    font-size     : 16px;
+    line-height   : 24px;
+    font-weight   : 700;
+    text-transform: uppercase;
+    color         : #445162;
 }
 
 input[type="submit"] {
@@ -538,45 +543,37 @@ input[type="submit"] {
     width           : 140px;
     height          : 40px;
     display         : block;
-    box-sizing: border-box;
+    box-sizing      : border-box;
     background-color: #ffffff;
-    text-transform  : uppercase; 
-    outline      : none;  
+    text-transform  : uppercase;
+    outline         : none;
 }
+
 input[type="submit"]:active {
-    background-color: rgb(15, 60, 143);     
+    background-color: rgb(15, 60, 143);
 }
 
 input[type="submit"]:hover {
-    background-color:  rgb(56, 190, 173);      
+    background-color: rgb(56, 190, 173);
 }
-.references_services a {
-    margin-bottom: 30px;
-}
-
-A {
-    color          : #ffffff;
-    /* Цвет ссылок */
-    text-decoration: none;
-}
-
-A:visited {
-    color          : #cecece;
-    /* Цвет посещенных ссылок */
-    text-decoration: none;
-}
-
-A:active {
-    color          : #ffff00;
-    /* Цвет активных ссылок */
-    text-decoration: none;
-}
-/*.spisok {
+.references {
     display: block;
-    margin : 10px 0 10px 10px;
-}*/
+      
+}
+.references_icon {
+    width          : 200px;
+    min-height     : 30px;
+    display: flex;     
+}
 
-/*progress,
-meter {
-    display: block;
-}*/
+.scr_span {
+    display    : block;
+    margin     : 0 0 20px 10px;
+    font-size  : 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color      : #ffffff;
+}
+.scr_social {
+    margin-top: 15px;
+}
