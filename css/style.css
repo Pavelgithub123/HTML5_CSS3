@@ -85,6 +85,8 @@ figcaption p {
   clear: both;
 }
 .dignity {
+  display: flex;
+  flex-wrap: wrap;
   width: 1280px;
   height: 420px;
   padding: 35px 0 0;
@@ -93,6 +95,7 @@ figcaption p {
   clear: both;
 }
 .dignity-title {
+  width: 100%;
   text-align: center;
   display: block;
   font-size: 32px;
@@ -113,6 +116,25 @@ figcaption p {
   display: flex;
   justify-content: space-between;
 }
+.dignity-item {
+  position: relative;
+}
+summary:before {
+  list-style-type: none;
+  content: "+";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  top: -1px;
+  left: -24px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+}
 .dignity-list-left {
   width: 580px;
   height: auto;
@@ -127,6 +149,7 @@ figcaption p {
 }
 .dignity-list-left li,
 .dignity-list-rigth li {
+  list-style-type: none;
   margin: 0 0 15px 0;
 }
 .Screenshots {
@@ -253,7 +276,7 @@ figcaption span {
 }
 .buy {
   width: 100%;
-  height: 656px;
+  min-height: 656px;
   padding: 50px;
   box-sizing: border-box;
   clear: both;
