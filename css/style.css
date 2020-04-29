@@ -116,60 +116,53 @@ figcaption p {
   display: flex;
   justify-content: space-between;
 }
+.action ul li {
+  font-style: italic;
+}
 .dignity-item {
   position: relative;
+  padding: 10px 0 0 40px;
 }
-/*summary:before { 
-    list-style-type: none;   
-    content: "+";
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color: blue;
-    position: absolute;
-    top: -1px;
-    left: -24px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 20px;
-  }*/
+summary {
+  display: block;
+  outline: none;
+  position: relative;
+}
 summary::-webkit-details-marker {
   display: none;
 }
-summary:after {
-  background: #445161;
+summary:before {
   content: "+";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #445161;
   color: #fff;
-  float: left;
-  font-size: 30px;
-  font-weight: bold;
-  margin: -5px 10px 0 0;
-  padding: 0;
   text-align: center;
-  width: 32px;
-  height: 32px;
+  font-size: 16px;
+  position: absolute;
+  top: 4px;
+  left: -39px;
 }
-details[open] summary:after {
+details[open] summary:before {
   content: "-";
+  font-style: italic;
 }
 .dignity-list-left {
   width: 580px;
   height: auto;
   box-sizing: border-box;
   padding: 5px;
+  list-style-type: none;
 }
 .dignity-list-rigth {
   width: 580px;
   height: auto;
   box-sizing: border-box;
   padding: 5px;
-}
-.dignity-list-left li,
-.dignity-list-rigth li {
   list-style-type: none;
-  margin: 0 0 15px 0;
 }
 .Screenshots {
   margin: o auto;
@@ -495,14 +488,12 @@ input[type="submit"]:hover {
 .social_icon {
   width: 240px;
   display: flex;
-  border: 1px solid black;
 }
 .social_icon_item {
   display: block;
   width: 42px;
   min-height: 42px;
   background-image: url(https://www.formget.com/wp-content/uploads/2014/12/2015-01-13_1032.png);
-  border: 1px solid black;
   box-sizing: border-box;
 }
 .social_icon_item:nth-child(1) {
