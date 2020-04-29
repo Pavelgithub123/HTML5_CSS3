@@ -487,78 +487,55 @@ input[type="submit"]:hover {
 }
 .social_icon {
   width: 240px;
-  min-height: 42px;
   display: flex;
-  justify-content: space-between;
 }
-.social_icon_items {
-  margin: 1px;
-  border-radius: 25px;
-  text-decoration: none;
+.social_icon_item {
+  display: block;
+  width: 42px;
+  min-height: 42px;
+  background-image: url(https://www.formget.com/wp-content/uploads/2014/12/2015-01-13_1032.png);
   box-sizing: border-box;
-  font-size: 42px;
-  background-color: white;
 }
-.social_icon_items:hover {
-  color: #154088;
+.social_icon_item:nth-child(1) {
+  background-position: 120px 298px;
+  background-size: 422px;
 }
-/*.social_icon_item {
-     display         : block;
-     width           : 42px;
-     min-height      : 42px;
-     background-image: url(https://www.formget.com/wp-content/uploads/2014/12/2015-01-13_1032.png);
-     box-sizing      : border-box;
- }
-
- .social_icon_item:nth-child(1) {
-     background-position: 120px 298px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(2) {
-     background-position: 363px 298px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(3) {
-     background-position: 283px 298px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(4) {
-     background-position: 323px 298px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(5) {
-     background-position: 161px 298px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(1):hover {
-     background-position: 120px 96px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(2):hover {
-     background-position: 363px 96px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(3):hover {
-     background-position: 283px 96px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(4):hover {
-     background-position: 323px 96px;
-     background-size    : 422px;
- }
-
- .social_icon_item:nth-child(5):hover {
-     background-position: 161px 96px;
-     background-size    : 422px;
- }*/
+.social_icon_item:nth-child(2) {
+  background-position: 363px 298px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(3) {
+  background-position: 283px 298px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(4) {
+  background-position: 323px 298px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(5) {
+  background-position: 161px 298px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(1):hover {
+  background-position: 120px 96px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(2):hover {
+  background-position: 363px 96px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(3):hover {
+  background-position: 283px 96px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(4):hover {
+  background-position: 323px 96px;
+  background-size: 422px;
+}
+.social_icon_item:nth-child(5):hover {
+  background-position: 161px 96px;
+  background-size: 422px;
+}
 footer {
   margin: 5px 0 5px 0;
   text-align: center;
