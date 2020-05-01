@@ -495,49 +495,49 @@ input[type="submit"]:hover {
   display: block;
   width: 42px;
   min-height: 42px;
-  background-image: url(../IMG/social_buttons_338.png);
+  background-image: url(../IMG/social_buttons_338_1.png);
   
   box-sizing: border-box;
 }
 .social_icon_item:nth-child(1) {
   background-position: -1px 0px;
-  background-repeat: no-repeat;
+  
 }
 .social_icon_item:nth-child(2) {
   background-position: -50px 0px;
- background-repeat: no-repeat;
+ 
 }
 .social_icon_item:nth-child(3) {
   background-position: -99px 0px;
-  babackground-repeat: no-repeat;
+  
 }
 .social_icon_item:nth-child(4) {
   background-position: -149px 0px;
- background-repeat: no-repeat;
+
 }
 .social_icon_item:nth-child(5) {
-  background-position: -199px 0px;
-  background-repeat: no-repeat;
+  background-position: -198px 0px;
+ 
 }
 .social_icon_item:nth-child(1):hover {
-  background-position: 120px 96px;
-  background-repeat: no-repeat;
+  background-position: -1px 42px; 
+    
 }
 .social_icon_item:nth-child(2):hover {
-  background-position: 363px 96px;
- background-repeat: no-repeat;
+  background-position: -50px 42px;
+  
 }
 .social_icon_item:nth-child(3):hover {
-  background-position: 283px 96px;
-  background-repeat: no-repeat;
+  background-position: -99px 42px;
+ 
 }
 .social_icon_item:nth-child(4):hover {
-  background-position: 323px 96px;
- background-repeat: no-repeat;
+  background-position: -149px 42px;
+ 
 }
 .social_icon_item:nth-child(5):hover {
-  background-position: 161px 96px;
- background-repeat: no-repeat;
+  background-position: -198px 42px;
+ 
 }
 footer {
   margin: 5px 0 5px 0;
